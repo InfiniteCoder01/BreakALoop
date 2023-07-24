@@ -1,6 +1,6 @@
 [package]
 name = "break-a-loop"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["InfiniteCoder <nayka.0.lobach.01@gmail.com>"]
 description = "A game for Underground Game Jam #1"
@@ -11,6 +11,8 @@ keywords = ["games", "raylib"]
 categories = ["games"]
 
 [dependencies]
+anyhow = "1.0.72"
+lang-c = "0.15.0"
 
 [dependencies.raylib]
 version = "4.5.0"
